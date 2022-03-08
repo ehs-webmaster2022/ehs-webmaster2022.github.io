@@ -1,15 +1,41 @@
 body {
      font-family: sans-serif;
+     margin: 0;
 }
 
 .nav-bar {
-     float: left;
-     display: inline;
+     list-style-type: none;
+     overflow: hidden;
+     position: sticky;
+
+     left: 0px;
+     top: 0px;
+     margin: 0;
+     padding: 0;
+     width: 100vw;
+     background-color: #555;
 }
 
 .nav-button {
+     left: 0px;
+     float: left;
+}
+
+.nav-button a {
      padding: 10px;
-     background-color: grey;
+     background-color: #555;
      color: white;
      display: block;
+}
+
+.nav-button a:hover {
+     background-color: #333;
+     cursor: pointer;
+     user-select: none;
+}
+
+.nav-button a:active {
+     background-color: navy;
+     cursor: pointer;
+     user-select: none;
 }
