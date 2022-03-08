@@ -1,0 +1,15 @@
+body {
+     font-family: sans-serif;
+}
+
+.nav-bar {
+     float: left;
+     display: inline;
+}
+
+.nav-button {
+     padding: 10px;
+     background-color: grey;
+     color: white;
+     display: block;
+}
