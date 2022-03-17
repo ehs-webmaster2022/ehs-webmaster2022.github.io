@@ -73,3 +73,14 @@ body {
      cursor: pointer;
      user-select: none;
 }
+.sponsor{
+     float:left;
+     margin-right:50px;
+     margin-left:50px;
+     
+}
+.blurb{
+    margin-right:150px;
+}
+
+
