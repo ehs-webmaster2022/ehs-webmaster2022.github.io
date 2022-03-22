@@ -48,6 +48,8 @@ body {
      padding: 0;
      width: 100vw;
      background-color: #555;
+
+     box-shadow: 0 10px 10px -10px grey;
 }
 
 .nav-button {
@@ -73,16 +75,43 @@ body {
      cursor: pointer;
      user-select: none;
 }
+
 .sponsors{
      float: left;
      padding-right: 30px;
      padding-left: 30px;
      padding-bottom: 80px;
 }
+
 .SponText{
      padding-top: 30px;
 }
+
 .sponBlurb {
      padding-bottom:150px;
      padding-right: 150px;
+}
+
+.content {
+
+    display: block;
+    margin: 15px;
+
+    padding: 10px;
+
+    box-shadow: 0 0 10px grey;
+
+    flex-grow: 1;
+}
+
+.sidebar {
+
+    display: block;
+    margin: 15px 0 15px 15px;
+
+    padding: 10px;
+
+    box-shadow: 0 0 10px grey;
+
+    width: 250px;
 }
