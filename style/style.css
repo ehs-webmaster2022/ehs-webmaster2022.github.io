@@ -78,11 +78,17 @@ body {
      padding-right: 30px;
      padding-left: 30px;
      padding-bottom: 80px;
+     padding-top: 30px;
 }
 .SponText{
-     padding-top: 30px;
+     padding-top: 60px;
+     font-size: 27px;
+     line-height: 5%;
 }
 .sponBlurb {
      padding-bottom:150px;
-     padding-right: 150px;
+     padding-right: 500px;
+     font-size: 17px;
+     text-align: left;
+     
 }
