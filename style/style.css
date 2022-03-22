@@ -118,3 +118,6 @@ body {
 
     width: 250px;
 }
+.cat{
+     background-image: linear-gradient(to left, #005fed, #b8cae6, #005fed);
+}
