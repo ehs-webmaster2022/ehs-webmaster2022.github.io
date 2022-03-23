@@ -88,12 +88,16 @@ body {
      padding-top: 60px;
      font-size: 28px;
      line-height: 5%;
+     position: static;
+     overflow-wrap: break-word;
 }
 
 .sponBlurb {
      padding-bottom:100px;
      padding-right: 100px;
      font-size: 20px;
+     position: static;
+     overflow-wrap: break-word;
 }
 
 .content {
@@ -128,12 +132,24 @@ body {
 
 .officer{
      box-sizing: box;
-     width: 600px;
-     height: 350px;
+     width: 620px;
+     height: 300px;
     margin: 15px;
     padding: 10px;
     box-shadow: 0 0 10px grey;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     flex-direction: row;
     float: left;
+    max-width: 100%;
+    position: sticky;
+}
+.officer.offRow{
+     width: 395px;
+     height: 300px;
+     position: sticky;
+}
+.content.Spon{
+     background-color: #fafafa; 
+     max-width: 100%; 
+     position: sticky;
 }
