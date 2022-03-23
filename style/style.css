@@ -126,3 +126,14 @@ body {
       color: black;
 }
 
+.officer{
+     box-sizing: box;
+     width: 600px;
+     height: 350px;
+    margin: 15px;
+    padding: 10px;
+    box-shadow: 0 0 10px grey;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    float: left;
+}
