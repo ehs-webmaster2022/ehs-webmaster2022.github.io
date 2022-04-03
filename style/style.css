@@ -1,5 +1,5 @@
 body {
-     font-family: sans-serif;
+     font-family: merriweather, serif;
      margin: 0;
 }
 
@@ -162,10 +162,10 @@ body {
 .content.Spon{
      max-width: 100%; 
 }
-.title{
+.titles{
      text-align: center; 
      color: white; 
-     padding: 350px; 
+     padding: 350px;
      font-size: 50px;
      text-shadow: 2px 2px black;  
 }
