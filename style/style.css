@@ -47,7 +47,7 @@ body {
      margin-top: 0px;
      padding: 0;
      width: 100vw;
-     background-color: #555;
+     background-color: #2999f0;
 
      box-shadow: 0 10px 10px -10px grey;
 }
@@ -59,7 +59,7 @@ body {
 
 .nav-button a {
      padding: 10px;
-     background-color: #555;
+     background-color: #2999f0;
      color: white;
      display: block;
 }
