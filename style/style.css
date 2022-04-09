@@ -181,7 +181,15 @@ body {
 }
 
 .bibliography{
-    font-family:merriweather, serif;
+    font-family: merriweather, serif;
     font-style: normal;
     list-style-type: none;
+}
+
+.software{
+  list-style-type: none;
+}
+
+.resource-heading{
+  padding-left: 39px;
 }
