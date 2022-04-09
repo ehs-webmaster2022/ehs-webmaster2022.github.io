@@ -62,7 +62,7 @@ body {
      background-color: #2999f0;
      color: white;
      display: block;
-
+     text-decoration: none;
 }
 
 .nav-button a:hover {
@@ -107,26 +107,19 @@ body {
 }
 
 .content {
-
     display: block;
     margin: 15px;
-
     padding: 10px;
-
     box-shadow: 0 0 10px grey;
-
     flex-grow: 1;
+    background-color: white;
 }
 
 .sidebar {
-
     display: block;
     margin: 15px 0 15px 15px;
-
     padding: 10px;
-
     box-shadow: 0 0 10px grey;
-
     width: 250px;
 }
 
@@ -152,6 +145,10 @@ body {
     font-family: merriweather, serif;
     font-style: normal;
     font-weight: 300;
+    background-color: white;
+}
+.officer.frame{
+     background-color: #2999f0;
 }
 
 .officer.offRow{
@@ -159,7 +156,8 @@ body {
      max-height: 25%;
      font-family: merriweather, serif;
      font-style: normal;
-     font-weight: 300;
+     font-weight: 300;   
+     background-color: white;
 }
 
 .content.Spon{
