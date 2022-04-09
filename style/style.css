@@ -141,14 +141,13 @@ body {
 }
 
 .officer{
-     box-sizing: box;
-    max-width: 35%;
-     max-height: 35%;
+    box-sizing: box;
+    max-width: 45%;
+    max-height: 45%;
     margin: 15px;
     padding: 20px;
     box-shadow: 0 0 10px grey;
     float: left;
-    max-width: 50%;
     font-family: merriweather, serif;
     font-style: normal;
     font-weight: 300;
