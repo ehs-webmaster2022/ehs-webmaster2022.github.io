@@ -62,7 +62,7 @@ body {
      background-color: #2999f0;
      color: white;
      display: block;
-     
+
 }
 
 .nav-button a:hover {
@@ -129,10 +129,11 @@ body {
 
     width: 250px;
 }
+
 .cat{
      background-image: linear-gradient(to left, #005fed, #8cbeff, #005fed);
      padding: 15px;
-     text-align: center; 
+     text-align: center;
      color: white;
      font-family: merriweather, serif;
      font-style: normal;
@@ -152,6 +153,7 @@ body {
     font-style: normal;
     font-weight: 300;
 }
+
 .officer.offRow{
      max-width: 25%;
      max-height: 25%;
@@ -159,18 +161,27 @@ body {
      font-style: normal;
      font-weight: 300;
 }
+
 .content.Spon{
-     max-width: 100%; 
+     max-width: 100%;
 }
+
 .titles{
-     text-align: center; 
-     color: white; 
+     text-align: center;
+     color: white;
      padding: 350px;
      font-size: 50px;
-     text-shadow: 2px 2px black;  
+     text-shadow: 2px 2px black;
 }
+
 .font{
      font-family: merriweather, serif;
      font-style: normal;
      font-weight: 300;
+}
+
+.bibliography{
+    font-family:merriweather, serif;
+    font-style: normal;
+    list-style-type: none;
 }
