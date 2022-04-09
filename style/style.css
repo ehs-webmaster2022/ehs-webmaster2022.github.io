@@ -62,7 +62,7 @@ body {
      background-color: #2999f0;
      color: white;
      display: block;
-     text-decoration: none;
+     
 }
 
 .nav-button a:hover {
@@ -142,8 +142,8 @@ body {
 
 .officer{
      box-sizing: box;
-    max-width: 45%;
-     max-height: 45%;
+    max-width: 35%;
+     max-height: 35%;
     margin: 15px;
     padding: 20px;
     box-shadow: 0 0 10px grey;
