@@ -141,8 +141,8 @@ body {
 
 .officer{
      box-sizing: box;
-     width: 620px;
-     height: 300px;
+     width: 45%;
+     height: 45%;
     margin: 15px;
     padding: 20px;
     box-shadow: 0 0 10px grey;
@@ -153,8 +153,8 @@ body {
     font-weight: 300;
 }
 .officer.offRow{
-     width: 395px;
-     height: 300px;
+     width: 25%;
+     height: 25%;
      font-family: merriweather, serif;
      font-style: normal;
      font-weight: 300;
