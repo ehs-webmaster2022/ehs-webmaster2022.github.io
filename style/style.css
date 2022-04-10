@@ -130,12 +130,14 @@ body {
      color: white;
      font-family: merriweather, serif;
      font-style: normal;
-     font-weight: 600;
+     font-size: 200%;
      text-shadow: 1.5px 1.5px black;
+    box-shadow: 0 0 10px grey;
+
 }
 
 .officer{
-    box-sizing: content-box;
+    display: block;
     max-width: 45%;
     max-height: 45%;
     margin: 15px;
@@ -148,9 +150,8 @@ body {
     background-color: white;
     min-width: 1%;
     min-height: 1%;
-     position: static;
-     min-block-size: 45%;
-     max-block-size: 45%;
+    flex-grow: 1;
+     /*position: static;*/
 }
 .officer.frame{
      background-color: #2999f0;
