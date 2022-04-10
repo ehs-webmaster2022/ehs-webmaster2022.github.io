@@ -135,7 +135,7 @@ body {
 }
 
 .officer{
-    box-sizing: box;
+    box-sizing: content-box;
     max-width: 45%;
     max-height: 45%;
     margin: 15px;
@@ -146,6 +146,11 @@ body {
     font-style: normal;
     font-weight: 300;
     background-color: white;
+    min-width: 1%;
+    min-height: 1%;
+     position: static;
+     min-block-size: 45%;
+     max-block-size: 45%;
 }
 .officer.frame{
      background-color: #2999f0;
@@ -158,8 +163,12 @@ body {
      font-style: normal;
      font-weight: 300;   
      background-color: white;
+     display: block;
 }
-
+.officer.classes{
+     max-width: 95%;
+     max-height: 95%;
+}
 .content.Spon{
      max-width: 100%;
 }
@@ -190,4 +199,16 @@ body {
 
 .resource-heading{
   padding-left: 39px;
+}
+.size{
+     font-size: 16px;
+}
+.cap{
+     box-sizing: content-box; 
+     background-image: linear-gradient(to left, #005fed, #8cbeff, #005fed);
+     text-align: center;
+     color: white;
+     font-family: merriweather, serif;
+     font-style: normal;
+     text-shadow: 1.5px 1.5px black;
 }
