@@ -2,40 +2,193 @@
 <html>
 
 	<head>
+
 		<link rel="stylesheet" href="style/style.css">
+		<link rel="stylesheet" href="style/rwd.css">
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+		<script src="scripts/load-navbar.js"></script>
+
 	</head>
 
 	<body>
 
-		<div class="grid-container">
-			<img class="logo grid" src="assets/ehs-logo.png">
-			<h1 class="title grid">EHS ECTC & TSA</h1>
-			<div class="grid"></div>
-		</div>
+		<div id="navbar"></div>
 
-		<ul class="nav-bar">
-			<li class="nav-button"><a href="our-chapter.html">Our Chapter</a></li>
-			<li class="nav-button"><a href="index.html">Our School</a></li>
-			<li class="nav-button"><a href="activities.html">Activities</a></li>
-			<li class="nav-button"><a href="engineering-and-computer-science.html">Engineering and Computer Science</a></li>
-			<li class="nav-button"><a>Virtual Open House</a></li>
-			<li class="nav-button"><a href="resources.html">Resources</a></li>
-		</ul>
+		<h1 class="titles" style="background-image: url(assets/tsa-event-pictures/20220126_155849.jpg);">Our Chapter</h1> <!-- background photo or photo collage -->
+		<div>
 
-		<div class="grid-container">
-			<div class="sidebar">
-			<button>blah</button>
-			<button>blah</button>
-			<button>blah</button>
-			<button>blah</button>
-			<button>blah</button>
-			<button>blah</button>
-			<button>blah</button>
-			<button>blah</button>
+			<img style="float: left; max-width: 22%; max-height: 20%; padding-left: 10%; padding-top: 2.5%;" src="assets/ehs-logo.png">
+			<div class="content Spon" style="padding-bottom: 2%;">
+				<h3 class="font" style="text-align: center; padding-right: 60px; padding-left: 45%; font-size: 30px; line-height: 0%; padding-top: 50px;">Motto</h3>
+				<p class="font" style="text-align: center; padding-right: 60px; padding-left: 45%;"> Learning to lead in a technical world.</p>
+
+				<h3 class="font" style="text-align: center; padding-right: 60px; padding-left: 45%; font-size: 30px; line-height: 0%;">Creed</h3>
+				<p class="font" style="text-align: center; padding-right: 60px; padding-left: 45%; padding-bottom: 50px;">
+					I believe that Technology Education holds an important place in my life in the technical world.
+					I believe there is a need for the development of good attitudes concerning work, tools, materials,
+					experimentation, and processes of industry. Guided by my teachers, artisans from industry,
+					and my own initiative, I will strive to do my best in making my school, community, state,
+					and nation better places in which to live. I will accept the responsibilities that are mine.
+					I will accept the theories that are supported by proper evidence. I will explore on my own for safer,
+					more effective methods of working and living. I will strive to develop a cooperative attitude and will
+					exercise tact and respect for other individuals. Through the work of my hands and mind,
+					I will express my ideas to the best of my ability. I will make it my goal to do better each day the task before me,
+					and to be steadfast in my belief in my God, and my fellow Americans.
+				</p>
 			</div>
-			<div class="content"></div>
+
 		</div>
 
+		<div>
+			<h2 class="cat">Sponsors</h2>
+
+			<div id="king" class="content">
+
+				<img class="sponsor-image frame left" src="assets/sponsors/mrKing.jpg" alt="Photo of Mr. King">
+
+				<div class="grid">
+					<h4 class="SponText" >Mr. King</h4>
+					<p class="sponBlurb">
+						Mr. King is one of our three engineering teachers that teach engineering.
+						He teaches engineering essentials, introduction to engineering design, computer integrated manufacturing,
+						principles of engineering, and digital electronics at Enterprise High school.
+						He is one of our excellent co-sponsors for our TSA chapter. His goal is to help students
+						explore the career field of engineering and become better problem solvers.
+					</p>
+				</div>
+
+			</div>
+
+			<div id="key" class="content Spon">
+			<img class="sponsor-image frame right"Style="float:right; margin-right: 0%; margin-left: 2%;" src="assets/sponsors/mrsKey.jpg" alt="Photo of Mrs.Key">
+			<h4 class="SponText" style="padding-left: 30px;">Mrs. Key</h4>
+			<p class="sponBlurb" style="padding-left:30px; padding-bottom: 4.5%;">Mrs.Key, one of the three engineering teachers, teaches most of our computer science classes.
+				She teaches exploring computer science, introduction to cybersecurity, AP computer science principles,
+				AP computer science A, and career projects in computer science.She is also one of our three co-sponsors.
+				She enjoys teaching and learning with her students about technology.</p>
+			</div>
+
+			<div id="ciuzio" class="content Spon">
+				<img class="sponsor-image frame left" style="max-height: 269.4px; max-width: 360px; "src="assets/sponsors/mrCiuzio.jpg" alt="Photo of Mr. King">
+			<h4 class="SponText" style="padding-top: 60px;">Mr. Ciuzio</h4>
+			<p class="sponBlurb" style="padding-bottom: 5%;">Mr. Ciuzio is one of our three engineering teachers. With 30 years of industry experience in engineering.
+				He teaches our students aerospace engineering, computer integrated manufacturing, and principles of engineering classes.
+				He is one of our TSA co-sponsors. Mr. Ciuzio is an avid mountaineer and has been recently inducted into the Alabama Sports Adventure Hall of Fame along with his
+				mountain climbing buddies.</p>
+			</div>
+		</div>
+
+		<div>
+			<h2 class="cat">Officers</h2>
+
+			<div class="row-2">
+
+				<div class="content ">
+
+					<img class="portrait frame left" src="assets/officers/zack.jpg" alt="Photo of Zack">
+					<h2>Zachary Gayford</h2>
+					<h3>President</h3>
+					<p class="size">
+						Zack is a 12th grade student at EHS. He is the trumpet section leader in the Big Blue Marching Band.
+						He enjoys playing music and hanging out with friends. As president, Zack
+						is responsible for making sure all meetings run smoothly.
+					</p>
+
+				</div>
+
+				<div class="content ">
+
+					<img class="portrait frame left" src="assets/officers/lorianne.jpg" alt="Photo of Lorianne">
+					<h2>Lorianne Clark</h2>
+					<h3>Vice President</h3>
+					<p class="size">
+						Lorianne is an 11th student at EHS. Lorianne is in the Enterprise Encores.
+						She enjoys reading and drawing. As vice president, Lorianne assists
+						the president in his duties and helps the other officers with their duties.
+					</p>
+
+				</div>
+			</div>
+
+			<div class="row-3">
+
+				<div class="content clear">
+
+					<img class="portrait frame left" src="assets/officers/aidan.jpg" alt="Photo of Aidan">
+					<h2>Aidan Knox</h2>
+					<h3>Treasurer</h3>
+					<p class="size">
+						Aidan is a 12th grade student at EHS. He plays clarinet in the Big Blue Marching Band
+						where he is the woodwind captain. He enjoys playing writing and playing music as well as
+						spending time with friends. As treasurer, Aidan is responsible for giving financial reports
+						at every chapter meeting and organizing fundraisers.
+					</p>
+
+				</div>
+
+				<div class="content clear">
+
+					<img class="portrait frame left" src="assets/officers/david.PNG" alt="Photo of David">
+					<h2>David Covington</h2>
+					<h3>Co-Secretary</h3>
+					<p class="size">
+						David is a 12th grade level student at EHS.
+						David is in the Big Blue Marching Band where he plays
+						French Horn and mellophone. He loves to travel and spend time with friends.
+						As co-secretary, David is responsible for taking meeting minutes,
+						typing up the minutes, and typing up meeting agendas.
+					</p>
+
+				</div>
+
+				<div class="content clear">
+
+					<img class="portrait frame left" src="assets/officers/hannah.jpg" alt="Photo of Hannah">
+					<h2>Hannah Kelley</h2>
+					<h3>Co-Secretary</h3>
+					<p class="size">
+						Hannah is a 11th grade student at EHS.
+						Hannah is in the Big Blue Marching Band where she is clarinet section leader.
+						She loves to read books and play music in her free time. She especially loves spending time with her daschund Shadow.
+						As co-secretary, Hannah is responsible for taking meeting minutes, typing up the minutes,
+						and typing up meeting agendas.
+					</p>
+
+				</div>
+			</div>
+
+			<div class="row-2">
+
+				<div class="content">
+
+					<img class="portrait frame left" src="assets/officers/ashur.jpg" alt="Photo of Ashur">
+					<h2>Ashur Cates</h2>
+					<h3>Reporter</h3>
+					<p class="size">
+						Ashur is an 11th grade student at EHS. His hobbies include reading and building models.
+						As the reporter for the chapter, he is responsible for informing chapter members of
+						recent events and assisting in creation of the school yearbook.
+					</p>
+
+				</div>
+
+				<div class="content">
+
+					<img class="portrait frame left" src="assets/officers/john-carter.jpg" alt="Photo of John Carter">
+					<h2>John Carter</h2>
+					<h3>Sergeant at Arms</h3>
+					<p class="size">
+						John is a 12th grade student at Enterprise High School. He is the Captain of the JROTC Rifle Team and has been
+						involved with TSA since Junior High. Outside of school, he enjoys playing video games and sport shooting.
+						As Sergeant at Arms, John is responsible for preparing the meeting room prior to any chapter-wide
+						meetings.
+					</p>
+
+				</div>
+
+			</div>
+		</div>
 	</body>
 
 </html>
