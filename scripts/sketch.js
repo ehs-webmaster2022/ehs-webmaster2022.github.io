@@ -16,8 +16,8 @@ let dragX = 0, dragY = 0;
 let select = 52;
 
 function preload () {
-     floor1 = loadImage ("assets/ectc-floor-plans/1/floor.png");
-     floor2 = loadImage ("assets/ectc-floor-plans/2/floor.png");
+     floor1 = loadImage ("assets/ectc-floor-plans/1/floor.PNG");
+     floor2 = loadImage ("assets/ectc-floor-plans/2/floor.PNG");
 
      floor1ColorMap = loadImage ("assets/ectc-floor-plans/1/color-map.png");
      floor2ColorMap = loadImage ("assets/ectc-floor-plans/2/color-map.png");
